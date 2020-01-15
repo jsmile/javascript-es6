@@ -70,3 +70,21 @@ multi_arguement_function( 'jsmile', 50 );
 
 console.log( '###################################' );
 
+
+/**
+ *  Export and Import  
+*/
+
+import person from './person.js'
+
+import per from './person.js'
+
+import { baseData } from './utility.js';
+
+import { clean}  from './utility.js';
+
+import { baseData as data } from './utility.js';
+
+import * as anAlias from './utility.js';
+console.log( anAlias.baseData );
+anAlias.clean;
