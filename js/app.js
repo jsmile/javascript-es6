@@ -4,6 +4,8 @@
  *  - const is unchangible.
 */
 
+console.log( '############# let, const ######################' );
+
 var old = 'Old Variable';
 console.log( 'first var : ', old );
 
