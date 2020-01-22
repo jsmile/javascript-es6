@@ -43,13 +43,13 @@ firstGen.printGender();
  * Classes, Properties & methods in ES6 vs ES7  
 */
 /*
-// ES6 Property
+// ES6 Property : initialize properties within a construtor.
 constructor() { this.myProperty = 'jsmile'; }
-// ES7 Property
+// ES7 Property : without constructor to initialize properties
 myProperty = 'jsmile';
 
 // ES6 Method
 myMethod() { ... }
-// ES7 Method
+// ES7 Method   :   lummda expression is passible.
 myMethod = () => { ... }
 */

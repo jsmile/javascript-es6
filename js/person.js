@@ -3,4 +3,4 @@ const person =
     name: 'jsmile'
 }
 
-export default Person;
+export default person;
